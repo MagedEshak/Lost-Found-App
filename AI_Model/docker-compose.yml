@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./static:/app/static
+      - ./metadata:/app/metadata
+    restart: always

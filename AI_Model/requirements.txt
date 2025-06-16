@@ -1,0 +1,51 @@
+# Core
+fastapi
+uvicorn==0.29.0
+numpy<2.0
+torch==2.2.2
+jinja2
+
+# Vision & AI
+ultralytics==8.1.37
+deepface==0.0.93
+opencv-python-headless==4.8.1.78
+pillow==9.5.0
+matplotlib==3.7.1
+sentence-transformers==2.6.1
+transformers
+faiss-cpu
+
+# Language & Utils
+huggingface_hub==0.23.1
+deep-translator==1.11.4
+langdetect==1.0.9
+geopy==2.4.1
+
+# Dependencies for AI models
+tensorflow
+keras
+scipy
+scikit-learn
+pandas
+pyyaml
+protobuf
+gdown
+tqdm
+seaborn
+psutil
+
+# Face detection extras
+mtcnn
+retina-face
+
+# Tokenizers and optimization
+tokenizers
+safetensors
+
+
+keras
+tf-keras
+keras-applications
+keras-preprocessing
+
+python-multipart
